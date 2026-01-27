@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital@1&family=Press+Start+2P&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+   background-image: url("assents/camera.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+  user-select: none;
+  -webkit-app-region: drag;
+}
+
+.app{
+ 
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  gap: 16px;
+}
+
+
+button,
+input,
+textarea,
+select {
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+}
+
+
+.title {
+  width: 190px;
+  height: 34px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50px;
+  font-family: 'Silkscreen', cursive;
+  
+  background-image: url("assents/inner-frame2.png");
+
+  
+  font-size: 18px;
+  color: #000;
+}
+#calendar {
+  
+  background-color:aliceblue;
+   width: 190px;
+  height: 150px;
+  border-radius: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+}
+#dayName {
+  font-family: Pixeboy;
+  font-size: 20px;
+  color: #000;
+  margin-top: 5px;
+}
+#date {
+  font-family:pixeboy;
+  font-size: 100px;
+  color: #8b3a3a;
+
+  line-height:80px;
+  letter-spacing: 6px;
+
+  margin-top: -10px;
+}
+#month {
+  font-family: Pixeboy;
+  font-size: 20px;
+
+  color: #000;
+  letter-spacing: 1px;
+
+  margin-top: 5px;
+}
